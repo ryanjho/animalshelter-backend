@@ -1,0 +1,29 @@
+{
+  "name": "animalshelter-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "reseed": "mongoimport --jsonArray --db animal-shelter --collection animals --drop --file ./db/seed/animals.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanjho/animalshelter-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanjho/animalshelter-backend/issues"
+  },
+  "homepage": "https://github.com/ryanjho/animalshelter-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.1.0",
+    "mongodb": "^3.6.0"
+  }
+}

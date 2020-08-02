@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Lion",
+        "species": "Mammal",
+        "breed": "Special Breed",
+        "sex": "male",
+        "image": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9",
+        "age": 24,
+        "adopted": true
+    },
+    {
+        "name": "Penguin",
+        "species": "Bird",
+        "breed": "Special Breed",
+        "sex": "female",
+        "image": "https://resize.hswstatic.com/w_907/gif/penguins-1.jpg",
+        "age": 12,
+        "adopted": false
+    }
+]
