@@ -3,13 +3,15 @@ const express = require('express');
 const app = express();
 const db = require('./db/index');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 // Environment Variables
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 // <Middleware
 app.use(express.urlencoded( { extended: false}));
 app.use(bodyParser.json());
+app.use(cors());
 
 
 // Connect to Database
